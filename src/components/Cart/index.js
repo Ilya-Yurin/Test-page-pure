@@ -66,8 +66,13 @@ const Cart = () => {
       axios.post(`${apiUrl}/variables/`, variables, { headers: { "bot-key" : token } })
         .then(response => {
           propOr(false, 'status')(response) && toggleLoading();
-          window.location = process.env.REACT_APP_ON_CLOSE_URL;
-        });
+          return axios.post(
+            `${apiUrl}/push/`,
+            { node: process.env.REACT_APP_ON_SUCCESS_NODE },
+            { headers: { "bot-key" : token } }
+          );
+        })
+        .then(response => (window.location = process.env.REACT_APP_ON_CLOSE_URL));
     }, [variables, apiUrl, token]
   );
 

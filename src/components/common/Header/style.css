@@ -1,0 +1,21 @@
+.header__wrapper {
+    height: 100px;
+    min-height: 100px;
+    background-color: white;
+}
+
+.header {
+    display: flex;
+    padding: 16px 32px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__logo > img {
+    height: 50px;
+    padding: 0 8px;
+}
+
+.header__title {
+    font-size: 18px;
+}

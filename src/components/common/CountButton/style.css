@@ -1,0 +1,56 @@
+.count_buttons {
+
+}
+
+.count_buttons__button {
+    box-shadow: none;
+    background: #fff;
+    color: #ababab;
+    font-size: 18px;
+    font-weight: normal;
+    overflow: hidden;
+    padding: 0;
+    border: 1px solid #ddd;
+    border-right-color: #ddd;
+    display: inline-block;
+    height: 38px;
+    text-align: center;
+    vertical-align: top;
+    width: calc(100% / 4);
+    line-height: 1.5;
+    outline: none;
+}
+
+.count_buttons button:hover {
+    border-color: #8a8a8a;
+    color: #333;
+}
+
+.count_buttons__button:focus {
+    outline: none;
+}
+
+.count_buttons_button__input {
+    border: 1px solid #ddd;
+    display: inline-block;
+    height: 38px;
+    text-align: center;
+    vertical-align: top;
+    width: calc(100% / 3);
+    border-left: none;
+    border-right: none;
+    font-size: 14px;
+    line-height: 33px;
+    color: #666;
+}
+
+.count_buttons__button__minus {
+    border-radius: 8px 0 0 8px;
+    border-right: none;
+    color: #ddd;
+}
+
+.count_buttons__button__plus {
+    border-radius: 0 8px 8px 0;
+    border-left: none;
+}

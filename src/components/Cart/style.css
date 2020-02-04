@@ -1,0 +1,12 @@
+.cart_wrapper {
+    position: relative;
+    height: 100%;
+    background-color: white;
+}
+
+.spinner_wrapper {
+    position: fixed;
+    margin: 20% auto;
+    left: 0;
+    right: 0;
+}

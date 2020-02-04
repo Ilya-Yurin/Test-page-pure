@@ -1,0 +1,12 @@
+.cart_footer {
+    border-radius: 15px 15px 0 0;
+    border-top: 1px solid rgba(0,0,0,.2);
+}
+
+.cart_footer > .row {
+    padding: 8px 16px;
+}
+
+.cart_footer > .row button {
+    width: 100%;
+}

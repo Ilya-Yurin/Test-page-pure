@@ -1,0 +1,11 @@
+.product_item {
+    padding: 0 16px;
+}
+
+.product_item > .row {
+    padding: 4px 0;
+}
+
+.product-item--name {
+    text-align: initial;
+}
